@@ -247,6 +247,7 @@ class PenziSchema(Schema):
 admin.add_view(SecureModelView(User, db.session))
 admin.add_view(SecureModelView(Incoming_Message, db.session))
 admin.add_view(SecureModelView(Outgoing_Message, db.session))
+admin.add_view(SecureModelView(Penzi, db.session))
 admin.add_view(NotificationsViews(name='Notifications', endpoint='notify'))
 admin.add_view(LogoutViews(name='Logout', endpoint='logout'))
 
