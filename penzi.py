@@ -16,7 +16,7 @@ app = Flask(__name__)
 # database user:password@hostname/database name
 
 app.config["SESSION_PERMANENT"] = False
-app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql://james:foxtrot09er@localhost/penzi_final'
+app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql://pcreazzdpkdnmt:10e79ccabb820695844ba505a3eb3bd954bb1b5c47b0b76349ee7d2d375c2519@ec2-54-156-121-167.compute-1.amazonaws.com:5432/dia2s573gjsn3'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.permanent_session_lifetime = timedelta(minutes = 30)
 app.config["SECRET_KEY"] = 'jisungparkfromdeep'
